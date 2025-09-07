@@ -6,6 +6,7 @@ public class rps {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Random random = new Random();
+        int a;
 
         String[] choices = { "1. Rock", "2. Paper", "3. Scissor" };
 
