@@ -7,6 +7,7 @@ public class rps {
         Scanner sc = new Scanner(System.in);
         Random random = new Random();
         int a;
+        int x;
 
         String[] choices = { "1. Rock", "2. Paper", "3. Scissor" };
 
@@ -58,7 +59,7 @@ public class rps {
                 input = true;
             }
 
-            int computerCh = random.nextInt(1, 4);
+            int computerCh = random.nextInt(1,4);
             System.out.println("Computer ----> " + choices[computerCh - 1]);
             if (usrCh < 0 || usrCh > 3) {
                 System.out.println("Invalid input! Please Enter between 1-3");
